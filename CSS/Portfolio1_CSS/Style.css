@@ -1,0 +1,17 @@
+body
+{
+    background-color: crimson;
+    color: rgba(255, 255, 255, 0.877);
+    indent;
+}
+.headings{
+    color:rgb(254, 237, 5);
+    font-size: 24px;
+}
+table
+{
+    border-color: black;
+    border-style: groove;
+    border-width: 10px;
+    background-color: crimson;
+}
