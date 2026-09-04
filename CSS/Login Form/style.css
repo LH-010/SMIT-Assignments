@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--text-color);
 }
 
 .container{
@@ -35,6 +36,7 @@ h2{
     color: var(--text-color);
     font-size: 35px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .inputBox{
@@ -56,18 +58,6 @@ input{
     font-size: 18px;
 }
 
-textarea{
-    width: 100%;
-    background: var(--primary-color);
-    padding: 15px;
-    outline: none;
-    border: 1px solid var(--text-color);
-    border-radius: 5px;
-    color: var(--text-color);
-    font-size: 18px;
-    resize: none;
-}
-
 button{
     width: 100%;
     padding: 15px;
@@ -83,4 +73,13 @@ button{
 
 button:hover{
     background-color: #357ab8;
+}
+
+#Remember
+{
+    color: var(--text-color);
+}
+#or
+{
+    margin-top: 20px;
 }
